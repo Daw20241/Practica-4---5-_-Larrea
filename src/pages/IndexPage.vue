@@ -75,6 +75,9 @@
               >
                 <div class="absolute-bottom text-h6">
                   {{ props.row.title }} {{ props.row.date }}
+                  <span v-if="props.row.copyright"
+                    >Copyright: {{ props.row.copyright }}</span
+                  >
                 </div>
               </q-img>
               <q-card-section>
